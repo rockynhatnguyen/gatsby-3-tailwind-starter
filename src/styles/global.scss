@@ -1,0 +1,40 @@
+/* ./src/styles/global.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+
+    h1 {
+        @apply text-5xl;
+    }
+
+    h2 {
+        @apply text-4xl;
+    }
+
+    h3 {
+        @apply text-3xl;
+    }
+
+    h4 {
+        @apply text-2xl;
+    }
+
+    h5 {
+        @apply text-xl;
+    }
+
+    h6 {
+        @apply text-lg;
+    }
+
+    a {
+        @apply text-blue-600 transition-all duration-500;
+    }
+
+    a:hover {
+        color: rgb(92, 113, 196);
+        border-bottom: 1px solid rgb(92, 113, 196);
+    }
+}
